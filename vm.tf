@@ -17,8 +17,6 @@ resource "google_compute_instance" "test-vm1" {
   }
 }
 
-
-
 resource "google_compute_instance" "test-vm2" {
   name         = "my-vm-2"
   machine_type = "e2-micro"        
@@ -37,8 +35,6 @@ resource "google_compute_instance" "test-vm2" {
     }
   }
 }
-
-
 
 resource "google_compute_instance" "test-vm3" {
   name         = "my-vm-3"

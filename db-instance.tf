@@ -9,8 +9,6 @@ resource "google_sql_database_instance" "mysql_instance_1" {
   deletion_protection  = false
 }
 
-
-
 resource "google_sql_database_instance" "mysql_instance_2" {
   name             = "mysql-db-2"
   region           = "southamerica-west1"
@@ -21,8 +19,6 @@ resource "google_sql_database_instance" "mysql_instance_2" {
 
   deletion_protection  = false
 }
-
-
 
 resource "google_sql_database_instance" "postgres_instance" {
   name             = "postgres-db-3"
