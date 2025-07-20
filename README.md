@@ -1,4 +1,4 @@
-# terraform-lab
+# Terraform-Lab
 
 ## Creation of Subnets
 I created 2 more subnets including the subnet we have before makes it 3 subnets
